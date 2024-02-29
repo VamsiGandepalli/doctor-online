@@ -20,7 +20,7 @@ pipeline {
                     credentialsId: 'nexus3', 
                     groupId: 'in.javahome', 
                     nexusUrl: '13.232.170.254:8081', 
-                    nexusVersion: 'nexus2', 
+                    nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: 'do-release', 
                     version: '1.4'
