@@ -28,7 +28,7 @@ pipeline {
         }
         stage("Tomcat Dev Deploy"){
             steps{
-                tomcatDeploy("172.31.12.10","ec2-user","tomcat-dev","doctor-online.war")
+                tomcatDeploy("172.31.12.10","ec2-user","tomcatdev","doctor-online.war")
                 
             }
         }
