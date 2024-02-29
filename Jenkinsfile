@@ -26,7 +26,7 @@ pipeline {
                     nexusUrl: '13.232.170.254:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
-                    repository: 'repoName', 
+                    repository: repoName, 
                     version: version
                 }
             }
