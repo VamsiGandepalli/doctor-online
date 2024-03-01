@@ -23,7 +23,7 @@ pipeline {
                     nexusArtifactUploader artifacts: [[artifactId: 'doctor-online', classifier: '', file: 'target/doctor-online.war', type: 'war']], 
                     credentialsId: 'nexus3', 
                     groupId: 'in.javahome', 
-                    nexusUrl: '13.232.170.254:8081', 
+                    nexusUrl: '13.201.5.199:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
                     repository: repoName, 
